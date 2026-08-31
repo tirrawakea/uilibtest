@@ -18,4 +18,13 @@ local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/You
 
 # Components
 
+## Button
+
+```lua
+UILibrary:Create(parent, "Button", {
+    Text = "Click Me",
+    Size = UDim2.new(0, 200, 0, 40),
+    Position = UDim2.new(0.5, -100, 0, 20),
+})
+```
 
